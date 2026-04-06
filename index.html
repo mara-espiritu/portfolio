@@ -1,0 +1,341 @@
+<html>
+    <html lang="en">
+        
+    <head>
+        
+        <meta charset="UTF-8">
+	    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!--fonts-->
+            <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="portfoliodesign.css">
+        
+        <title>Portfolio | Mara E.</title>
+
+    </head>
+
+    <body>
+
+        <!--NAVBAR-->
+	    <div class="navwrap">
+        <nav class="navbar">
+		    <a href="#main">
+          <img class="logo" src="images/MElogo.svg" alt="icon"></a>
+		      <ul class="nav-links">
+			      <li><a href="#gallery">gallery</a></li>
+                  <!--li><a href="store.html" target="_blank">store</a></li-->
+			      <li><a href="#profile">profile</a></li>
+			      <li><a href="#contact">contact</a></li>
+		      </ul>
+	    </nav>
+        </div>
+
+        <!--HOME/HEADER/HERO-->
+	    <section id="main" class="main">
+            <div class="home">
+                <div class="homeline">
+                    <p>an artist driven <br> by <b style="color:#F5CFCF">passion</b>.</p>
+                </div>
+            </div>
+        </section>
+
+        <!--GALLERY-->
+        <section id="gallery" class="gallery">
+            <img class="galhline" src="images/GALLERYtag.svg" alt="gallery">
+
+            <select id="categoryFilter" class="gallery-filter">
+                <option value="all">filter by medium</option>
+                <option value="illust">Illustration</option>
+                <option value="design">Graphic Design</option>
+                <option value="merch">Merchandise Design</option>
+                <option value="gif">2D GIF Animation</option>
+                <option value="webuiux">Web and UI/UX Design</option>
+                <option value="game">Game Design and Dev</option>
+            </select>
+
+            <h1>passion & unofficial projects</h1>
+
+            <!--IMAGE CARDS-->
+            <div class="cards">
+        
+                <div class="card animate-on-scroll" data-category="webuiux">
+                    <a href="https://www.figma.com/design/9LQw3ZoLgK1GZePELluerV/AE-Cafe-UI-UX-Mobile-Design?node-id=0-1&t=du30awdal2hqhCOp-1" target="_blank">
+                        <img src="images/WEB_PICS/wp_pic1.jpg">
+                    </a>
+                </div>
+
+                <div class="card animate-on-scroll" data-category="merch">
+                    <img src="images/PIC_5/p_pic5.jpg" data-full="images/PIC_5/pic5.jpg" class="preview">
+                </div>
+
+                <div class="card animate-on-scroll" data-category="merch">
+                    <img src="images/PIC_6/p_pic6.jpg" data-full="images/PIC_6/pic6.jpg" class="preview">
+                </div>
+
+                <div class="card animate-on-scroll" data-category="merch">
+                    <img src="images/PIC_7/p_pic7.jpg" data-full="images/PIC_7/pic7.jpg" class="preview">
+                </div>
+
+                <div class="card animate-on-scroll" data-category="illust">
+                    <img src="images/PIC_10/p_pic10.jpg" data-full="images/PIC_10/pic10.jpg" class="preview">
+                </div>
+
+                <div class="card animate-on-scroll" data-category="merch">
+                    <img src="images/PIC_9/p_pic9.jpg" data-full="images/PIC_9/pic9.jpg" class="preview">
+                </div>
+
+                <div class="card animate-on-scroll" data-category="design">
+                    <img src="images/PIC_2/p_pic2.jpg" data-full="images/PIC_2/pic2.jpg" class="preview">
+                </div>
+
+            </div>
+
+            <h1>original works</h1>
+
+            <div class="cards">
+    
+                <div class="card animate-on-scroll" data-category="game">
+                    <a href="https://tamespiritu.itch.io/blank-canvas" target="_blank">
+                        <img src="images/WEB_PICS/wp_pic2.jpg">
+                    </a>
+                </div>
+
+                <div class="card animate-on-scroll" data-category="webuiux">
+                    <a href="https://www.figma.com/design/iCMc8qFhFlY76pAVYE58AB/One-Afternoon-Web-Design?node-id=0-1&t=IRPdXu7wyHl7t8yH-1" target="_blank">
+                        <img src="images/WEB_PICS/wp_pic3.jpg">
+                    </a>
+                </div>
+
+                <div class="card animate-on-scroll" data-category="gif">
+                    <img src="images/PIC_3/p_pic3.jpg" data-full="images/PIC_3/pic3.gif" class="preview">
+                </div>
+
+                <div class="card animate-on-scroll" data-category="design">
+                    <img src="images/PIC_8/p_pic8.jpg" data-full="images/PIC_8/pic8.jpg" class="preview">
+                </div>
+        
+                <div class="card animate-on-scroll" data-category="merch">
+                    <img src="images/PIC_1/p_pic1.jpg" data-full="images/PIC_1/pic1.jpg" class="preview">
+                </div>
+        
+            </div>
+
+            <!--LIGHTBOX (CLICKABLE IMAGES)-->
+            <div class="lightbox" id="lightbox">
+                <span class="close">&times;</span>
+                <img class="lightbox-img" id="lightbox-img">
+            </div>
+
+        </section>
+
+        <!--PROFILE-->
+        <section id="profile" class="profile animate-on-scroll">
+            <div class="probox">
+                <div class="proimg animate-on-scroll">
+                    <img src="images/proimg1.png" style="width:100%">
+                </div>
+                <div class="rightcol animate-on-scroll">
+                    <img class="prohline" src="images/PROFILEtag.svg">
+                    <div class="aprotext">
+                        <p>Hi I’m <b>Mara Espiritu</b>,<br>a pleasure to meet you!</p> 
+                    </div>
+                    <div class="bprotext">
+                        <p><b>I am a graphic artist and aspiring web designer and developer residing in the Philippines.</b> My works are driven by modern Japanese pop culture—particularly anime and merchandising—as well as changing design trends and alternative fashion, all of which influence my creative approach and visual style.</p>
+                    </div>
+					<div class="resume">
+                    	<button class="button1" id="openModal">resume</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+		<!-- RESUME MODAL FOR BUTTON1 -->
+		<div class="modal-overlay" id="modalOverlay">
+    		<div class="modal-box" id="modalBox">
+        		<span class="close-modal" id="closeModal">&times;</span>
+        		
+				<div class="modcol">
+					<div class="col1">
+						<h2>work experience</h2>
+						<ul>
+							<li>Graphic Artist | Freelance - Private</li>
+							<li>Assistant Web Designer | Contractual - Lyfbiz</li>
+							<li>Student Museum Docent - Museo De La Salle</li>
+						</ul>
+					</div>
+						
+					<div class="col2">
+						<h2>education</h2>
+						<ul>
+							<li>Associate in Computer Technology: Application Development - Informatics College Imus Campus (2025-Present)</li>
+							<li>Bachelor of Multimedia Arts with Specialization in Animation - De La Salle University - Dasmariñas (2020-2024)</li>
+						</ul>
+					</div>
+				</div>
+
+				<div class="apps">
+					<h2>applications</h2>
+						<div class="applogos">
+							<div class="app"><img src="images/APP_LOGOS/photoshop.png"></div>
+							<div class="app"><img src="images/APP_LOGOS/lightroom.png"></div>
+							<div class="app"><img src="images/APP_LOGOS/figma.png"></div>
+							<div class="app"><img src="images/APP_LOGOS/canva.png"></div>
+							<div class="app"><img src="images/APP_LOGOS/affinity.png"></div>
+							<div class="app"><img src="images/APP_LOGOS/vscode.png"></div>
+							<div class="app"><img src="images/APP_LOGOS/clipstudiopaint.png"></div>
+						</div>
+				</div>
+
+				<div class="modcol2">
+					<div class="col-a">
+						<h2>languages</h2>
+						<ul>
+							<li>Filipino (Tagalog)</li>
+							<li>English</li>
+							<li>Japanese (Basic)</li>
+						</ul>
+					</div>
+
+					<div class="col-b">
+						<h2>certifications</h2>
+						<ul>
+							<li>JAPANESE LANGUAGE RESEARCH CENTER | Certificate of Completion for JLPT N5 (100hrs)</li>
+						</ul>
+					</div>
+				</div>
+
+				<div class="buttons">
+                    <button class="button2">
+					    <a href="https://www.linkedin.com/in/mara-espiritu-24114a2b2/" target="_blank">linkedin</a>
+				    </button>
+                    <button class="button3">
+					    <a href="https://github.com/mara-espiritu" target="_blank">github</a>
+				    </button>
+                </div>
+                
+				
+    		</div>
+		</div>
+
+        <!--CONTACT-->
+        <section id="contact" class="contact animate-on-scroll">
+            <div class="contactbox">
+                <div class="contacttext animate-on-scroll">
+                    <img class="conhline" src="images/CONTACTtag.svg">
+                    <div class="context">
+                        <p>Have a project or idea in mind?<br>Simply fill out this <b>form!</b><br>I look forward to working with you.</p>
+                    </div>
+                </div>
+                <div class="formembed animate-on-scroll">
+                    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdPhfcvI6sQAy9_dJmGg_gcvTzL4JvNUm1uc4ZnzQyKU9bZAw/viewform?embedded=true"></iframe>
+                </div>
+            </div>
+        </section>
+
+        <!--FOOTER-->
+        <footer>
+            
+            <a href="https://www.figma.com/design/qugMo2ibi81EzfVlvmskWI/MARA-E.-Portfolio?node-id=0-1&t=U8K7mgMvilC1oAre-1" target="_blank" rel="noopener noreferrer">View initial web design</a>
+		    <p>Designed and Developed by yours truly</p>
+            <p>©2026 マラ E.</p>
+	    </footer>
+
+        <!--=====JAVASCRIPT=====-->
+        
+        <script> //====NAVBAR SCROLL ANIMATION=====
+            window.addEventListener("scroll", function() {
+            const navbar = document.querySelector(".navbar");
+
+            if (window.scrollY > 100) {
+                navbar.classList.add("scrolled");
+            } else {
+                navbar.classList.remove("scrolled");
+            }
+            });
+        </script>
+
+        <script> //====CLICK TO VIEW IMAGE====
+            const previews = document.querySelectorAll(".preview");
+            const lightbox = document.getElementById("lightbox");
+            const lightboxImg = document.getElementById("lightbox-img");
+            const closeBtn = document.querySelector(".close");
+
+            previews.forEach(img => {
+                img.addEventListener("click", () => {
+                    lightboxImg.src = img.dataset.full;
+                    lightbox.classList.add("show");
+                });
+            });
+
+            closeBtn.addEventListener("click", () => {
+                lightbox.classList.remove("show");
+            });
+
+            lightbox.addEventListener("click", e => {
+                if(e.target !== lightboxImg){
+                    lightbox.classList.remove("show");
+                }
+            });
+        </script>
+
+        <script> //====SCROLL ANIMATION====
+            document.addEventListener("DOMContentLoaded", () => {
+                const observer = new IntersectionObserver(entries => {
+                    entries.forEach(entry => {
+                        if (entry.isIntersecting) {
+                            entry.target.classList.add('show');
+                            observer.unobserve(entry.target); // animate only once
+                        }
+                    });
+                });
+                document.querySelectorAll('.animate-on-scroll').forEach(el => observer.observe(el));
+            });
+        </script>
+
+        <script> //=====GALLERY FILTER SYSTEM====mobile friendly hindrance to be fixed
+        const filter = document.getElementById("categoryFilter");
+        const cards = document.querySelectorAll(".card");
+
+        filter.addEventListener("change", () => {
+            const value = filter.value;
+
+                cards.forEach(card => {
+                    const category = card.dataset.category || "";
+
+                        if (value === "all" || category.includes(value)) {
+                            card.style.display = "";
+                        } else {
+                            card.style.display = "none";
+                        }
+                });
+        });
+        </script>
+
+		<script> //=====CLICK "RESUME" BUTTON TO OPEN MODAL BOX======
+		document.addEventListener("DOMContentLoaded", () => {
+    		const openBtn = document.getElementById("openModal");
+    		const modalOverlay = document.getElementById("modalOverlay");
+    		const closeModal = document.getElementById("closeModal");
+    		const modalBox = document.getElementById("modalBox");
+
+    	// Open modal
+    	openBtn.addEventListener("click", () => {
+        	modalOverlay.classList.add("show");
+    	});
+
+    	// Close modal (close button)
+    	closeModal.addEventListener("click", () => {
+        	modalOverlay.classList.remove("show");
+    	});
+
+    	// Close modal (clicking outside the modal-box)
+    	modalOverlay.addEventListener("click", (e) => {
+        	if (!modalBox.contains(e.target)) {
+            	modalOverlay.classList.remove("show");
+        	}
+    	});
+		});
+		</script>
+
+    </body>
+
+</html>
